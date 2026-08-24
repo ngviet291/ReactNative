@@ -6,20 +6,22 @@ import CourseRow from './CourseRow'
 
 const CourseListScreen = () => {
   const [query, setQuery] = useState('')
+  const [category, setCategory] = useState('Tất cả')
 
+  const categories = ['Tất cả', ...new Set(courses.map(c => c.category))]
   const openCourse = (course: Course) => {
     Alert.alert(
       course.title,
       `Giảng viên: ${course.instructor}\nSố lượng sinh viên: ${course .students}`
     )
   }
-
+  
   const normalizedQuery = query.trim().toLocaleLowerCase('vi')
 
   const filteredCourses = courses.filter((course) =>
     `${course.title} ${course.instructor} ${course.category}`
       .toLocaleLowerCase('vi')
-      .includes(normalizedQuery)
+      .includes(normalizedQuery)&&(category === 'Tất cả' || course.category === category)
   )
 
   return (
@@ -52,9 +54,22 @@ const CourseListScreen = () => {
                 onPress={() => setQuery('')}
                 style={styles.clearButton}
                 >
-                <Text style={styles.clearText}>✕</Text>
+                <Text style={styles.clearText}>xóa</Text>
                 </Pressable>
             )}
+            
+            {categories.map(item => (
+                <Pressable
+                    key={item}
+                    onPress={() => setCategory(item)}
+                    style={styles.categoryButton}
+                >
+                    <Text style={styles.category}>{item}</Text>
+                </Pressable>
+            ))}
+
+
+
             <Text style={styles.resultText}>
               Tìm thấy {filteredCourses.length} khóa học
             </Text>
@@ -133,6 +148,12 @@ const styles = StyleSheet.create({
     paddingHorizontal: 9,
     paddingVertical: 5,
   },
+  categoryButton: {
+    padding: 8,
+    backgroundColor: '#ddd',
+    borderRadius: 5,
+  },
+  
   studentCount: {
     color: '#596171',
     fontSize: 13,
