@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react';
-import { api } from '../api/api';
-import { FlatList, Text, View, StyleSheet } from 'react-native';
+import React, { useEffect, useState } from "react";
+import { FlatList, Text, View, StyleSheet } from "react-native";
+import { api } from "../../api/api";
 
 export type Post = {
   userId: number;
@@ -45,11 +45,12 @@ const NewfeedScreen = () => {
 const styles = StyleSheet.create({
   container: {
     padding: 10,
+    flex: 1,
   },
   item: {
     padding: 10,
     marginBottom: 10,
-    backgroundColor: '#eee',
+    backgroundColor: "#eee",
   },
   title: {
     fontSize: 16,
