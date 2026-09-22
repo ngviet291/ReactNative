@@ -17,4 +17,5 @@ export interface ProductResponse {
 export interface ProductRowProps {
   product: Product;
   onPress: (product: Product) => void;
+  onDelete: (product: Product) => void;
 }

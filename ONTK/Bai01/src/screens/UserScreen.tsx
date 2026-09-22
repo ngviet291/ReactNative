@@ -90,23 +90,15 @@ const UserScreen = () => {
         <Pressable onPress={() => loadUser(Number(userId) || 1)}>
           <Text>Tải</Text>
         </Pressable>
-        <Field label="Họ tên" value={user?.name} />
-        <Field label="Tài khoản" value={user?.username} />
-        <Field label="Email" value={user?.email} />
-        <Field label="Điện thoại" value={user?.phone} />
-        <Field label="Thành phố" value={user?.address?.city} />
-        <Field label="Đường" value={user?.address?.street} />
-        <Field label="Mã bưu chính" value={user?.address?.zipcode} />
+        <Text>Họ tên: {user?.name}</Text>
+        <Text>Tài khoản: {user?.username}</Text>
+        <Text>Email: {user?.email}</Text>
+        <Text>Điện thoại: {user?.phone}</Text>
+        <Text>Thành phố: {user?.address?.city}</Text>
+        <Text>Đường: {user?.address?.street}</Text>
+        <Text>Mã bưu chính: {user?.address?.zipcode}</Text>
       </View>
     </ScrollView>
   );
 };
-function Field({ label, value }: { label: string; value?: string }) {
-  return (
-    <View>
-      <Text>{label}</Text>
-      <Text>{value ?? "Chưa cập nhật"}</Text>
-    </View>
-  );
-}
 export default UserScreen;

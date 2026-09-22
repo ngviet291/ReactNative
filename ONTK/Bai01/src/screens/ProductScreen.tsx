@@ -225,7 +225,7 @@ const ProductScreen = () => {
           <View style={styles.emptyContainer}>
             <Text style={styles.emptyText}>Không tìm thấy sản phẩm nào</Text>
           </View>
-        }
+        } 
         ListHeaderComponent={
           <View>
             <TextInput
