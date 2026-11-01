@@ -2,12 +2,22 @@ import React, { memo } from "react";
 import { MovieCardProps } from "../utils/type";
 import { Image, StyleSheet, Text, TouchableOpacity, View } from "react-native";
 
-const MovieCard = ({ movie, layout = "row", onSelect }: MovieCardProps) => {
+const MovieCard = ({
+  movie,
+  layout = "row",
+  onSelect,
+  onToggleWatched,
+}: MovieCardProps) => {
   const isTile = layout === "tile";
   return (
     <TouchableOpacity
       style={isTile ? styles.tile : styles.card}
-      onPress={() => onSelect(movie)}>
+      onPress={() => {
+        if (!movie.isWatched) {
+          onToggleWatched(movie);
+        }
+        onSelect(movie);
+      }}>
       <View>
         <Image
           style={[styles.image, isTile && styles.tileImage]}

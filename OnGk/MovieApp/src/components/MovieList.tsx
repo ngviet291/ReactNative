@@ -95,6 +95,14 @@ const MovieList = () => {
     });
     setMovies((prev) => prev.filter((m) => m.id != movie.id));
   };
+  const handleToggleWatched = async (item: Movie) => {
+    const res = await axios.put(`${API_URL}/${item.id}`, {
+      ...item,
+      isWatched: true,
+    });
+
+    setMovies((prev) => prev.map((m) => (m.id === item.id ? res.data : m)));
+  };
   return (
     <View style={{ flex: 1 }}>
       <Switch value={layout} onValueChange={setLayout}></Switch>
@@ -129,7 +137,8 @@ const MovieList = () => {
           <MovieCard
             movie={item}
             layout={layout ? "tile" : "row"}
-            onSelect={setMovie}></MovieCard>
+            onSelect={setMovie}
+            onToggleWatched={handleToggleWatched}></MovieCard>
         )}
       />
     </View>
