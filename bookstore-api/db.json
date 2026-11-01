@@ -1,0 +1,454 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Nguyễn Văn An",
+      "email": "an@gmail.com",
+      "password": "$2a$10$1ytYW2.LIzmQSC4KOoXMTumV6Ae9PoDy8Al3qz6R1iRu2zgkyTqqW"
+    },
+    {
+      "id": 2,
+      "name": "Trần Thị Bình",
+      "email": "binh@gmail.com",
+      "password": "$2a$10$1ytYW2.LIzmQSC4KOoXMTumV6Ae9PoDy8Al3qz6R1iRu2zgkyTqqW"
+    },
+    {
+      "id": 3,
+      "name": "Lê Minh Châu",
+      "email": "chau@gmail.com",
+      "password": "$2a$10$1ytYW2.LIzmQSC4KOoXMTumV6Ae9PoDy8Al3qz6R1iRu2zgkyTqqW"
+    },
+    {
+      "id": 4,
+      "name": "Tài khoản Test",
+      "email": "test@gmail.com",
+      "password": "$2a$10$1ytYW2.LIzmQSC4KOoXMTumV6Ae9PoDy8Al3qz6R1iRu2zgkyTqqW"
+    }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "title": "Dế Mèn Phiêu Lưu Ký",
+      "author": "Tô Hoài",
+      "category": "Văn học",
+      "price": 45000,
+      "image": "https://picsum.photos/seed/book1/300/450",
+      "description": "Dế Mèn Phiêu Lưu Ký của Tô Hoài, một cuốn sách thuộc thể loại văn học được nhiều bạn đọc yêu thích."
+    },
+    {
+      "id": 2,
+      "title": "Tắt Đèn",
+      "author": "Ngô Tất Tố",
+      "category": "Văn học",
+      "price": 60000,
+      "image": "https://picsum.photos/seed/book2/300/450",
+      "description": "Tắt Đèn của Ngô Tất Tố, một cuốn sách thuộc thể loại văn học được nhiều bạn đọc yêu thích."
+    },
+    {
+      "id": 3,
+      "title": "Số Đỏ",
+      "author": "Vũ Trọng Phụng",
+      "category": "Văn học",
+      "price": 55000,
+      "image": "https://picsum.photos/seed/book3/300/450",
+      "description": "Số Đỏ của Vũ Trọng Phụng, một cuốn sách thuộc thể loại văn học được nhiều bạn đọc yêu thích."
+    },
+    {
+      "id": 4,
+      "title": "Truyện Kiều",
+      "author": "Nguyễn Du",
+      "category": "Văn học",
+      "price": 70000,
+      "image": "https://picsum.photos/seed/book4/300/450",
+      "description": "Truyện Kiều của Nguyễn Du, một cuốn sách thuộc thể loại văn học được nhiều bạn đọc yêu thích."
+    },
+    {
+      "id": 5,
+      "title": "Lão Hạc",
+      "author": "Nam Cao",
+      "category": "Văn học",
+      "price": 40000,
+      "image": "https://picsum.photos/seed/book5/300/450",
+      "description": "Lão Hạc của Nam Cao, một cuốn sách thuộc thể loại văn học được nhiều bạn đọc yêu thích."
+    },
+    {
+      "id": 6,
+      "title": "Đắc Nhân Tâm",
+      "author": "Dale Carnegie",
+      "category": "Kỹ năng",
+      "price": 89000,
+      "image": "https://picsum.photos/seed/book6/300/450",
+      "description": "Đắc Nhân Tâm của Dale Carnegie, một cuốn sách thuộc thể loại kỹ năng được nhiều bạn đọc yêu thích."
+    },
+    {
+      "id": 7,
+      "title": "Cha Giàu Cha Nghèo",
+      "author": "Robert Kiyosaki",
+      "category": "Kinh tế",
+      "price": 98000,
+      "image": "https://picsum.photos/seed/book7/300/450",
+      "description": "Cha Giàu Cha Nghèo của Robert Kiyosaki, một cuốn sách thuộc thể loại kinh tế được nhiều bạn đọc yêu thích."
+    },
+    {
+      "id": 8,
+      "title": "Tư Duy Nhanh Và Chậm",
+      "author": "Daniel Kahneman",
+      "category": "Kinh tế",
+      "price": 129000,
+      "image": "https://picsum.photos/seed/book8/300/450",
+      "description": "Tư Duy Nhanh Và Chậm của Daniel Kahneman, một cuốn sách thuộc thể loại kinh tế được nhiều bạn đọc yêu thích."
+    },
+    {
+      "id": 9,
+      "title": "Nghĩ Giàu Làm Giàu",
+      "author": "Napoleon Hill",
+      "category": "Kinh tế",
+      "price": 110000,
+      "image": "https://picsum.photos/seed/book9/300/450",
+      "description": "Nghĩ Giàu Làm Giàu của Napoleon Hill, một cuốn sách thuộc thể loại kinh tế được nhiều bạn đọc yêu thích."
+    },
+    {
+      "id": 10,
+      "title": "Từ Tốt Đến Vĩ Đại",
+      "author": "Jim Collins",
+      "category": "Kinh tế",
+      "price": 145000,
+      "image": "https://picsum.photos/seed/book10/300/450",
+      "description": "Từ Tốt Đến Vĩ Đại của Jim Collins, một cuốn sách thuộc thể loại kinh tế được nhiều bạn đọc yêu thích."
+    },
+    {
+      "id": 11,
+      "title": "Khởi Nghiệp Tinh Gọn",
+      "author": "Eric Ries",
+      "category": "Kinh tế",
+      "price": 160000,
+      "image": "https://picsum.photos/seed/book11/300/450",
+      "description": "Khởi Nghiệp Tinh Gọn của Eric Ries, một cuốn sách thuộc thể loại kinh tế được nhiều bạn đọc yêu thích."
+    },
+    {
+      "id": 12,
+      "title": "Thói Quen Nguyên Tử",
+      "author": "James Clear",
+      "category": "Kỹ năng",
+      "price": 119000,
+      "image": "https://picsum.photos/seed/book12/300/450",
+      "description": "Thói Quen Nguyên Tử của James Clear, một cuốn sách thuộc thể loại kỹ năng được nhiều bạn đọc yêu thích."
+    },
+    {
+      "id": 13,
+      "title": "7 Thói Quen Hiệu Quả",
+      "author": "Stephen Covey",
+      "category": "Kỹ năng",
+      "price": 125000,
+      "image": "https://picsum.photos/seed/book13/300/450",
+      "description": "7 Thói Quen Hiệu Quả của Stephen Covey, một cuốn sách thuộc thể loại kỹ năng được nhiều bạn đọc yêu thích."
+    },
+    {
+      "id": 14,
+      "title": "Nghệ Thuật Tinh Tế Của Việc Đếch Quan Tâm",
+      "author": "Mark Manson",
+      "category": "Kỹ năng",
+      "price": 99000,
+      "image": "https://picsum.photos/seed/book14/300/450",
+      "description": "Nghệ Thuật Tinh Tế Của Việc Đếch Quan Tâm của Mark Manson, một cuốn sách thuộc thể loại kỹ năng được nhiều bạn đọc yêu thích."
+    },
+    {
+      "id": 15,
+      "title": "Tư Duy Phản Biện",
+      "author": "Albert Rutherford",
+      "category": "Kỹ năng",
+      "price": 105000,
+      "image": "https://picsum.photos/seed/book15/300/450",
+      "description": "Tư Duy Phản Biện của Albert Rutherford, một cuốn sách thuộc thể loại kỹ năng được nhiều bạn đọc yêu thích."
+    },
+    {
+      "id": 16,
+      "title": "Lược Sử Thời Gian",
+      "author": "Stephen Hawking",
+      "category": "Khoa học",
+      "price": 150000,
+      "image": "https://picsum.photos/seed/book16/300/450",
+      "description": "Lược Sử Thời Gian của Stephen Hawking, một cuốn sách thuộc thể loại khoa học được nhiều bạn đọc yêu thích."
+    },
+    {
+      "id": 17,
+      "title": "Sapiens",
+      "author": "Yuval Noah Harari",
+      "category": "Khoa học",
+      "price": 199000,
+      "image": "https://picsum.photos/seed/book17/300/450",
+      "description": "Sapiens của Yuval Noah Harari, một cuốn sách thuộc thể loại khoa học được nhiều bạn đọc yêu thích."
+    },
+    {
+      "id": 18,
+      "title": "Vũ Trụ Trong Vỏ Hạt Dẻ",
+      "author": "Stephen Hawking",
+      "category": "Khoa học",
+      "price": 175000,
+      "image": "https://picsum.photos/seed/book18/300/450",
+      "description": "Vũ Trụ Trong Vỏ Hạt Dẻ của Stephen Hawking, một cuốn sách thuộc thể loại khoa học được nhiều bạn đọc yêu thích."
+    },
+    {
+      "id": 19,
+      "title": "Nguồn Gốc Các Loài",
+      "author": "Charles Darwin",
+      "category": "Khoa học",
+      "price": 185000,
+      "image": "https://picsum.photos/seed/book19/300/450",
+      "description": "Nguồn Gốc Các Loài của Charles Darwin, một cuốn sách thuộc thể loại khoa học được nhiều bạn đọc yêu thích."
+    },
+    {
+      "id": 20,
+      "title": "Gen – Lịch Sử Và Tương Lai",
+      "author": "Siddhartha Mukherjee",
+      "category": "Khoa học",
+      "price": 210000,
+      "image": "https://picsum.photos/seed/book20/300/450",
+      "description": "Gen – Lịch Sử Và Tương Lai của Siddhartha Mukherjee, một cuốn sách thuộc thể loại khoa học được nhiều bạn đọc yêu thích."
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "bookId": 1,
+      "userId": 1,
+      "userName": "Nguyễn Văn An",
+      "rating": 1,
+      "comment": "Hay, đáng đọc.",
+      "createdAt": "2026-10-03T09:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "bookId": 4,
+      "userId": 2,
+      "userName": "Trần Thị Bình",
+      "rating": 3,
+      "comment": "Hơi khó đọc với mình.",
+      "createdAt": "2026-10-02T09:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "bookId": 7,
+      "userId": 3,
+      "userName": "Lê Minh Châu",
+      "rating": 5,
+      "comment": "Tuyệt vời, mình đọc 2 lần rồi.",
+      "createdAt": "2026-10-01T09:00:00.000Z"
+    },
+    {
+      "id": 4,
+      "bookId": 10,
+      "userId": 4,
+      "userName": "Tài khoản Test",
+      "rating": 2,
+      "comment": "Nội dung ổn, giao hàng nhanh.",
+      "createdAt": "2026-09-30T09:00:00.000Z"
+    },
+    {
+      "id": 5,
+      "bookId": 13,
+      "userId": 1,
+      "userName": "Nguyễn Văn An",
+      "rating": 4,
+      "comment": "Rất bổ ích.",
+      "createdAt": "2026-09-29T09:00:00.000Z"
+    },
+    {
+      "id": 6,
+      "bookId": 16,
+      "userId": 2,
+      "userName": "Trần Thị Bình",
+      "rating": 1,
+      "comment": "Hay, đáng đọc.",
+      "createdAt": "2026-09-28T09:00:00.000Z"
+    },
+    {
+      "id": 7,
+      "bookId": 19,
+      "userId": 3,
+      "userName": "Lê Minh Châu",
+      "rating": 3,
+      "comment": "Hơi khó đọc với mình.",
+      "createdAt": "2026-09-27T09:00:00.000Z"
+    },
+    {
+      "id": 8,
+      "bookId": 2,
+      "userId": 4,
+      "userName": "Tài khoản Test",
+      "rating": 5,
+      "comment": "Tuyệt vời, mình đọc 2 lần rồi.",
+      "createdAt": "2026-09-26T09:00:00.000Z"
+    },
+    {
+      "id": 9,
+      "bookId": 5,
+      "userId": 1,
+      "userName": "Nguyễn Văn An",
+      "rating": 2,
+      "comment": "Nội dung ổn, giao hàng nhanh.",
+      "createdAt": "2026-09-25T09:00:00.000Z"
+    },
+    {
+      "id": 10,
+      "bookId": 8,
+      "userId": 2,
+      "userName": "Trần Thị Bình",
+      "rating": 4,
+      "comment": "Rất bổ ích.",
+      "createdAt": "2026-09-24T09:00:00.000Z"
+    },
+    {
+      "id": 11,
+      "bookId": 1,
+      "userId": 3,
+      "userName": "Lê Minh Châu",
+      "rating": 1,
+      "comment": "Hay, đáng đọc.",
+      "createdAt": "2026-09-23T09:00:00.000Z"
+    },
+    {
+      "id": 12,
+      "bookId": 14,
+      "userId": 4,
+      "userName": "Tài khoản Test",
+      "rating": 3,
+      "comment": "Hơi khó đọc với mình.",
+      "createdAt": "2026-09-22T09:00:00.000Z"
+    },
+    {
+      "id": 13,
+      "bookId": 17,
+      "userId": 1,
+      "userName": "Nguyễn Văn An",
+      "rating": 5,
+      "comment": "Tuyệt vời, mình đọc 2 lần rồi.",
+      "createdAt": "2026-09-21T09:00:00.000Z"
+    },
+    {
+      "id": 14,
+      "bookId": 20,
+      "userId": 2,
+      "userName": "Trần Thị Bình",
+      "rating": 2,
+      "comment": "Nội dung ổn, giao hàng nhanh.",
+      "createdAt": "2026-09-20T09:00:00.000Z"
+    },
+    {
+      "id": 15,
+      "bookId": 3,
+      "userId": 3,
+      "userName": "Lê Minh Châu",
+      "rating": 4,
+      "comment": "Rất bổ ích.",
+      "createdAt": "2026-09-19T09:00:00.000Z"
+    },
+    {
+      "id": 16,
+      "bookId": 6,
+      "userId": 4,
+      "userName": "Tài khoản Test",
+      "rating": 1,
+      "comment": "Hay, đáng đọc.",
+      "createdAt": "2026-09-18T09:00:00.000Z"
+    },
+    {
+      "id": 17,
+      "bookId": 9,
+      "userId": 1,
+      "userName": "Nguyễn Văn An",
+      "rating": 3,
+      "comment": "Hơi khó đọc với mình.",
+      "createdAt": "2026-09-17T09:00:00.000Z"
+    },
+    {
+      "id": 18,
+      "bookId": 12,
+      "userId": 2,
+      "userName": "Trần Thị Bình",
+      "rating": 5,
+      "comment": "Tuyệt vời, mình đọc 2 lần rồi.",
+      "createdAt": "2026-09-16T09:00:00.000Z"
+    },
+    {
+      "id": 19,
+      "bookId": 15,
+      "userId": 3,
+      "userName": "Lê Minh Châu",
+      "rating": 2,
+      "comment": "Nội dung ổn, giao hàng nhanh.",
+      "createdAt": "2026-09-15T09:00:00.000Z"
+    },
+    {
+      "id": 20,
+      "bookId": 18,
+      "userId": 4,
+      "userName": "Tài khoản Test",
+      "rating": 4,
+      "comment": "Rất bổ ích.",
+      "createdAt": "2026-09-14T09:00:00.000Z"
+    },
+    {
+      "id": 21,
+      "bookId": 1,
+      "userId": 1,
+      "userName": "Nguyễn Văn An",
+      "rating": 1,
+      "comment": "Hay, đáng đọc.",
+      "createdAt": "2026-09-13T09:00:00.000Z"
+    },
+    {
+      "id": 22,
+      "bookId": 4,
+      "userId": 2,
+      "userName": "Trần Thị Bình",
+      "rating": 3,
+      "comment": "Hơi khó đọc với mình.",
+      "createdAt": "2026-09-12T09:00:00.000Z"
+    },
+    {
+      "id": 23,
+      "bookId": 7,
+      "userId": 3,
+      "userName": "Lê Minh Châu",
+      "rating": 5,
+      "comment": "Tuyệt vời, mình đọc 2 lần rồi.",
+      "createdAt": "2026-09-11T09:00:00.000Z"
+    },
+    {
+      "id": 24,
+      "bookId": 10,
+      "userId": 4,
+      "userName": "Tài khoản Test",
+      "rating": 2,
+      "comment": "Nội dung ổn, giao hàng nhanh.",
+      "createdAt": "2026-09-10T09:00:00.000Z"
+    },
+    {
+      "id": 25,
+      "bookId": 13,
+      "userId": 1,
+      "userName": "Nguyễn Văn An",
+      "rating": 4,
+      "comment": "Rất bổ ích.",
+      "createdAt": "2026-09-09T09:00:00.000Z"
+    },
+    {
+      "bookId": 8,
+      "userId": 4,
+      "userName": "Tài khoản Test",
+      "rating": 5,
+      "comment": "Hay",
+      "id": 26
+    },
+    {
+      "bookId": 1,
+      "userId": 2,
+      "userName": "Trần Thị Bình",
+      "rating": 5,
+      "comment": "ssd",
+      "createdAt": "2026-10-26T14:03:42.920Z",
+      "id": 27
+    }
+  ]
+}
