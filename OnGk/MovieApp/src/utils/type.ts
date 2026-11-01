@@ -11,4 +11,5 @@ export interface MovieCardProps {
   movie: Movie;
   layout?: "row" | "tile";
   onSelect: (movie: Movie) => void;
+  onToggleWatched: (movie: Movie) => void;
 }
